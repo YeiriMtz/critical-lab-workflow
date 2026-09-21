@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Critical Lab Call Workflow</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ---------- HEADER ---------- -->
+
+    <header class="site-header">
+
+        <div class="u-health-logo">
+            <img src="images/u-logo.svg" alt="University of Utah Health">
+        </div>
+
+        <div class="header-title">
+            <p>HMHI Outpatient Services</p>
+            <h1>Critical Lab Call Workflow</h1>
+            <p>Interactive Guide</p>
+            <p>Right result. Right person. Right time. Better care.</p>
+        </div>
+
+        <div class="hmhi-logo">
+            <img src="images/hmhi-logo.svg" alt="Huntsman Mental Health Institute">
+        </div>
+
+    </header>
+
+
+    <!-- ---------- MAIN ---------- -->
+    <main>
+
+        <div class="main-content">
+
+            <!-- ---------- WORKFLOW ---------- -->
+            <section class="workflow">
+
+                <!-- Workflow Start -->
+                <div class="workflow-start">
+
+                    <div class="workflow-icon-circle">
+                        <img src="images/flask.svg" alt="">
+                    </div>
+
+                    <h2>Critical Lab Result Received</h2>
+                    <p>Select the appropriate pathway below</p>
+
+                </div>
+
+
+                <!-- Main Branching Connector -->
+                <div class="main-connector"></div>
+                <!-- Patient Groups -->
+                <div class="patient-groups">
+
+                <!-- ---------- CHILD PATHWAY ---------- -->
+                <div class="patient-group">
+                    <div class="patient-card child-card">
+                    <div class="patient-icon">
+                        <img src="images/child.svg" alt="">
+                    </div>
+                
+                    <div class="patient-text">
+                        <h2>Outpatient Child</h2>
+                        <p>(17 years and younger)</p>
+                    </div>
+                    </div>
+
+                    <!-- Child Time Options -->
+                    <div class="patient-time-options">
+                        <div class="time-card business-hours">
+                            <img
+                                class="time-icon"
+                                src="images/sun.svg"
+                                alt=""
+                            >
+                            <h3>
+                                During<br>
+                                Business Hours
+                            </h3>
+                            <button>View Workflow</button>
+                        </div>
+                        <div class="time-card after-hours">
+                            <img
+                                class="time-icon"
+                                src="images/moon.svg"
+                                alt=""
+                            >
+                            <h3>After Hours</h3>
+                            <button>View Workflow</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                    <!-- ---------- ADULT PATHWAY ---------- -->
+                    <div class="patient-group">
+
+                        <div class="patient-card adult-card">
+
+                            <div class="patient-icon">
+                                <img src="images/adult.svg" alt="">
+                            </div>
+                    
+                        <div class="patient-text">
+                            <h2>Outpatient Adult</h2>
+                            <p>(18 years and older)</p>
+                        </div>  
+
+                        </div>
+
+                        <!-- Adult Time Options -->
+                        <div class="patient-time-options">
+
+                            <div class="time-card business-hours">
+
+                                <img
+                                    class="time-icon"
+                                    src="images/sun.svg"
+                                    alt=""
+                                >
+
+                                <h3>
+                                    During<br>
+                                    Business Hours
+                                </h3>
+
+                                <button>View Workflow</button>
+
+                            </div>
+
+                            <div class="time-card after-hours">
+
+                                <img
+                                    class="time-icon"
+                                    src="images/moon.svg"
+                                    alt=""
+                                >
+                                <h3>After Hours</h3>
+                                <button>View Workflow</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ---------- IMPORTANT INFORMATION ---------- -->
+            <aside class="important-info">
+
+                <div class="info-header">
+
+                    <div class="info-header-icon">
+                        𝒊
+                    </div>
+
+                    <h2>Important Information</h2>
+
+                </div>
+
+
+                <div class="info-list">
+
+                    <!-- HMHI Main Line -->
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <img src="images/phone.svg" alt="">
+                        </div>
+
+                        <div class="info-text">
+
+                            <h3>HMHI Main Line</h3>
+
+                            <p>
+                                <strong>801-583-2500</strong>
+                            </p>
+
+                            <p>
+                                ARUP calls HMHI Main for all critical lab results.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Provider Paging -->
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <img src="images/pager.svg" alt="">
+                        </div>
+
+                        <div class="info-text">
+
+                            <h3>Provider Paging</h3>
+
+                            <p>
+                                HMHI Main pages the appropriate provider per workflow.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Response Expectation -->
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <img src="images/clock.svg" alt="">
+                        </div>
+
+                        <div class="info-text">
+
+                            <h3>Response Expectation</h3>
+                            <p>
+                                Providers should respond within 30 minutes.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Follow-Up -->
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <img src="images/document.svg" alt="">
+                        </div>
+
+                        <div class="info-text">
+
+                            <h3>Follow-Up</h3>
+                            <p>
+                                Review the patient chart, contact the patient,
+                                provide clinical direction, and document in EPIC.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Escalation Pathways -->
+                    <div class="info-item">
+
+                        <div class="info-icon">
+                            <img src="images/repeat.svg" alt="">
+                        </div>
+
+                        <div class="info-text">
+
+                            <h3>Escalation Pathways</h3>
+                            <p>
+                                If the provider does not respond,
+                                escalate per the workflow.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+        <!-- ---------- BOTTOM NAVIGATION ---------- -->
+        <section class="bottom-navigation">
+        
+            <div class="navigation-card">
+            
+                <div class="navigation-icon">
+                    <img src="images/document.svg" alt="">
+                </div>
+            
+                <div class="navigation-text">
+                    <h2>Key Contacts</h2>
+                    <p>Phone numbers and roles</p>
+                </div>
+            
+                <span class="navigation-arrow">›</span>
+            
+            </div>
+        
+            <div class="navigation-card">
+            
+                <div class="navigation-icon">
+                    <img src="images/book.svg" alt="">
+                </div>
+            
+                <div class="navigation-text">
+                    <h2>Definitions &amp; Guidelines</h2>
+                    <p>Key terms and policies</p>
+                </div>
+            
+                <span class="navigation-arrow">›</span>
+            
+            </div>
+        
+            <div class="navigation-card">
+            
+                <div class="navigation-icon">
+                    <img src="images/shield.svg" alt="">
+                </div>
+            
+                <div class="navigation-text">
+                    <h2>Resources</h2>
+                    <p>
+                        Paging directory, institutional policy,
+                        and additional information
+                    </p>
+                </div>
+            
+                <span class="navigation-arrow">›</span>
+            
+            </div>
+        
+        </section>
+    </main>
+
+    <!-- ---------- FOOTER ---------- -->
+    <footer>
+        <p>HMHI Outpatient Services</p>
+    </footer>
+
+</body>
+</html>
