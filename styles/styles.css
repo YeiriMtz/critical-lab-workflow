@@ -146,6 +146,8 @@ main {
     background-color: var(--workflow-background);
     border: 1px solid var(--workflow-border);
     border-radius: 15px;
+
+    transform: translateY(-13px);
 }
 
 .info-header {
@@ -523,12 +525,12 @@ main {
 }
 
 .navigation-card {
-    min-height: 105px;
-    padding: 15px 20px;
+    min-height: 90px;
+    padding: 12px 15px;
 
     display: grid;
-    grid-template-columns: 60px 1fr 25px;
-    gap: 15px;
+    grid-template-columns: 55px 1fr 20px;
+    gap: 12px;
     align-items: center;
 
     background-color: var(--white);
@@ -539,8 +541,8 @@ main {
 }
 
 .navigation-icon {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
 
     display: flex;
     align-items: center;
@@ -551,11 +553,11 @@ main {
 }
 
 .navigation-icon img {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
 }
 
-.navigation-text h2 {
+.navigation-text h2 {   
     margin: 0 0 5px;
 
     font-size: 1.1rem;
